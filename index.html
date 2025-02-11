@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex-App</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script type="module" src="./assets/main.js"></script>
 </head>
 <body>
     <header>
         <h1>Welcome to the Pokédex</h1>
-        <h2 id="pokemon-generation-name">Generation hier</h2>
+        <h2 id="pokemon-generation-name">Please choose a Generation</h2>
     </header>
 
     <main>
         <section>
             <div class="section-header">
-                <h3>Choose a Generation</h3>
                 <div class="generation-buttons">
                     <button type="button">Generation I</button>
                     <button type="button">Generation II</button>
@@ -29,6 +30,7 @@
             </div>
         </section>
         <section class="pokemon-section">
+            <button id="test-btn">Create Pokis</button>
             <ul class="pokemon-list">
                 <li>Test Pokemon</li>
             </ul>
